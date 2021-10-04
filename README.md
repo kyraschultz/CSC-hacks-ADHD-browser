@@ -1,23 +1,21 @@
-# CSC Hacks Sample Project Repo
+# CSC Hacks ADHD Browser Extension
 
-This repo is an example of a team project repository that meets all of [the repository requirements](https://www.notion.so/CSC-Hacks-901a62e005c8494fa342e0cc738101ad#da206965e3ed497f9bd6c1ceebd4fac9). Feel free to download / clone this repository as a starting point.
 
 ## Project Description
-*This is intentionally open-ended, but consider that people will be reading this to get a brief understanding of what you're working on.* Some ideas are:
-* We want to accomplish x, y, z, using technologies x, y, z.
-* We want to do this because of x, y, z.
-* Doing this will require learning x, y, z.
-* We anticipate the following challenges: x, y, z.
+* We want to create a browser extension that helps people with ADHD/people looking for motivation to complete boring tasks. 
+* We want to do this because we have experience procrastinating our homework until it gets super close to the deadline and becomes super stressful to complete
+* Doing this will require learning javascript, displaying animations, and building chrome extensions. 
+* We anticipate the following challenges: getting over how disgusting javacript is, figuring out animation details, and learning about browser extensions overall.
 
 ## Team Information
-Richie Goulazian
-* Pitt CS, 2023
-* rgoulazian@pitt.edu
-* Richie78321 in the CSC Discord
-* Check out my portfolio site! https://rgoulazian.com/
+Kyra Schultz
+* Pitt CS, 2024
+* kds85@pitt.edu
+* kyraschultz#4850 in the CSC Discord
+* http://www.linkedin.com/in/-kyra- 
 
-Ming Wang
+Sade Benjamin 
 * Pitt CS, 2022
-* zhw78@pitt.edu
-* He smells
-* https://www.linkedin.com/in/zhengmingwang/
+* skb49@pitt.edu
+* She smells pleasant
+* https://www.linkedin.com/in/sade-benjamin-pitt
