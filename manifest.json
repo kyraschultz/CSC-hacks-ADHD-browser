@@ -2,5 +2,24 @@
   "name": "name",
   "description": "Encouraging productivity through dog pics <3",
   "version": "1.0",
-  "manifest_version": 3
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/pics/dog16.png",
+      "32": "/pics/dog32.png",
+      "48": "/pics/dog48.png",
+      "128": "/pics/dog128.png"
+    }
+  },
+  "icons":{
+    "16": "/pics/dog16.png",
+    "32": "/pics/dog32.png",
+    "48": "/pics/dog48.png",
+    "128": "/pics/dog128.png"
+  }
 }
