@@ -17,5 +17,4 @@ Kyra Schultz
 Sade Benjamin 
 * Pitt CS, 2022
 * skb49@pitt.edu
-* She smells pleasant
 * https://www.linkedin.com/in/sade-benjamin-pitt
