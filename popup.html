@@ -2,10 +2,23 @@
 <html>
   <head>
     <link rel="stylesheet" href="button.css">
+    <script src="./popup.js"></script>
   </head>
   <body>
+    <div>
+      <div id="dogPicturesDiv">
+        <img src="https://images.app.goo.gl/YuUJb3yHBBqeJTDd9" id="dogPicture">
+        </img>
+        
+        <form class="form-inline">
+          <input type="text" name="task_Description" id="task_Description" placeholder="Enter your next Task!"/>
+          <label>
+            <input type="checkbox" name="isCompleted" id="isCompleted" > Have you completed this task?
+          </label>
+          <button type="submit" id="btn"> Add Task</button>
+        </form>
+        
+      </div>
     <button id="changeColor"></button>
-    <script src = "popup.js"></script>
+  </body>
 </html>
-
-<! need to attribute dog icon >

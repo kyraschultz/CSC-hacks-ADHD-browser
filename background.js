@@ -1,7 +1,10 @@
-//background.js
-let color = "#de34eb";
-
-chrome.runtime.onInstalled.addListener(() => {
-  chrome.storage.sync.set({ color });
-  console.log('Default background color set to %cpurple', `color: ${color}`);
+chrome.tabs.onActivated.addListener(tab => {
+    chrome.tabs.get(tab.tabId, current_tab_info => {
+        console.log(current_tab_info.url)
+    });
 });
+
+//first arg is tab id, null is default or active tab
+
+chrome.tabs.executeScript(null, {file: './foreground.js'}, 
+() => console.log('i injected'))
