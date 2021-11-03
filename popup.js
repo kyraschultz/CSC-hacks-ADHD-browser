@@ -1,3 +1,4 @@
+// Write JavaScript here 
 //An array of puppy images. 0th index 
 //is a pic with zero the dog, 6th index
 //has a pic with multiple puppies
@@ -34,6 +35,26 @@ function setDogPic() {
   let task = {
     id: Date.new(),
     task_Description: document.getElementById("task_Description").value,
-    
+    isCompleted: document.getElementById("isCompleted").value
+  }
+  
+  listOfTasks.push(task);
+  //hard coded value of form
+  document.forms[0].reset()
+  
+  if (typeof window !== 'undefined') {
+  localStorage.setItem('MyListOfTasks', JSON.stringify(listOfTasks));
+  };
+};
+
+document.body.onload = Looper;
+function Looper() {
+var i=0;
+var stop=listOfTasks.length;
+for (i=0;i<stop;i++) {  
+     var v = document.createElement("div");
+     var content =         document.createTextNode(listOfTasks[i].task_Description);
+
+    v.appendChild(content); document.getElementById('taskDisplay').appendChild(v);
   }
 }
