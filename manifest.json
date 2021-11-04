@@ -1,7 +1,7 @@
 {
   "name": "ADHD Extension",
   "description": "my ext",
-  "version": "0.1.0" 
+  "version": "0.1.0",
   "manifest_version": 2,
   "icons": {
     "16": "./obj-16x16.png",
@@ -9,7 +9,7 @@
     "48": "./obj-48x48.png",
     "128": "./obj-128x128.png"
   },
-  
+
   "background": {
     "scripts": ["./background.js"]
   },
@@ -17,7 +17,7 @@
   "browser_action": {
     "default_popup": "popup.html"
   },
-  
+
   "permission": [
     "tabs",
     "http://www.google.com/*",
